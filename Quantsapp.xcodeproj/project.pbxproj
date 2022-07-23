@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0007D66C28884A2A00A3E3BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007D66B28884A2A00A3E3BA /* AppDelegate.swift */; };
+		0007D67028884A2A00A3E3BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007D66F28884A2A00A3E3BA /* ViewController.swift */; };
+		0007D67328884A2A00A3E3BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0007D67128884A2A00A3E3BA /* Main.storyboard */; };
+		0007D67628884A2A00A3E3BA /* Quantsapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0007D67428884A2A00A3E3BA /* Quantsapp.xcdatamodeld */; };
+		0007D67828884A2E00A3E3BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0007D67728884A2E00A3E3BA /* Assets.xcassets */; };
+		0007D67B28884A2E00A3E3BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0007D67928884A2E00A3E3BA /* LaunchScreen.storyboard */; };
+		0007D6BE288852CC00A3E3BA /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007D6BC288852CC00A3E3BA /* SecondVC.swift */; };
+		0007D6BF288852CC00A3E3BA /* SecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0007D6BD288852CC00A3E3BA /* SecondVC.xib */; };
+		0007D6C72888563C00A3E3BA /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007D6C62888563C00A3E3BA /* WebServices.swift */; };
+		0007D6CB28886BA000A3E3BA /* JSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007D6CA28886B9F00A3E3BA /* JSONModel.swift */; };
+		0007D6D9288A705300A3E3BA /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007D6D8288A705300A3E3BA /* NetworkLogger.swift */; };
+		0007D6DF288ABDCD00A3E3BA /* StocksCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007D6DD288ABDCC00A3E3BA /* StocksCVCell.swift */; };
+		0007D6E0288ABDCD00A3E3BA /* StocksCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0007D6DE288ABDCC00A3E3BA /* StocksCVCell.xib */; };
+		56AF1936F9CB44095F4DA86B /* libPods-Quantsapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21BBD1077E66F9A79185A86F /* libPods-Quantsapp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0007D66828884A2A00A3E3BA /* Quantsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quantsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0007D66B28884A2A00A3E3BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0007D66F28884A2A00A3E3BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0007D67228884A2A00A3E3BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0007D67528884A2A00A3E3BA /* Quantsapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Quantsapp.xcdatamodel; sourceTree = "<group>"; };
+		0007D67728884A2E00A3E3BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0007D67A28884A2E00A3E3BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0007D67C28884A2E00A3E3BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0007D6BC288852CC00A3E3BA /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		0007D6BD288852CC00A3E3BA /* SecondVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondVC.xib; sourceTree = "<group>"; };
+		0007D6C62888563C00A3E3BA /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		0007D6CA28886B9F00A3E3BA /* JSONModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONModel.swift; sourceTree = "<group>"; };
+		0007D6D8288A705300A3E3BA /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		0007D6DD288ABDCC00A3E3BA /* StocksCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksCVCell.swift; sourceTree = "<group>"; };
+		0007D6DE288ABDCC00A3E3BA /* StocksCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StocksCVCell.xib; sourceTree = "<group>"; };
+		21BBD1077E66F9A79185A86F /* libPods-Quantsapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Quantsapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F058D65D3754A8C93D8BF79 /* Pods-Quantsapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quantsapp.debug.xcconfig"; path = "Target Support Files/Pods-Quantsapp/Pods-Quantsapp.debug.xcconfig"; sourceTree = "<group>"; };
+		D2E56DC5079C3177864B018B /* Pods-Quantsapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quantsapp.release.xcconfig"; path = "Target Support Files/Pods-Quantsapp/Pods-Quantsapp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0007D66528884A2A00A3E3BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56AF1936F9CB44095F4DA86B /* libPods-Quantsapp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0007D65F28884A2A00A3E3BA = {
+			isa = PBXGroup;
+			children = (
+				0007D66A28884A2A00A3E3BA /* Quantsapp */,
+				0007D66928884A2A00A3E3BA /* Products */,
+				EDF656B37548A139F3033585 /* Pods */,
+				692778DFC927BF9E5AD4D21E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0007D66928884A2A00A3E3BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0007D66828884A2A00A3E3BA /* Quantsapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0007D66A28884A2A00A3E3BA /* Quantsapp */ = {
+			isa = PBXGroup;
+			children = (
+				0007D6C52888562800A3E3BA /* Networking */,
+				0007D68728884A8B00A3E3BA /* AppDelegate */,
+				0007D68628884A7E00A3E3BA /* Controller */,
+				0007D68928884AD300A3E3BA /* Coredata */,
+				0007D68428884A6700A3E3BA /* Model */,
+				0007D68828884AAE00A3E3BA /* Supporting Files */,
+				0007D68528884A6D00A3E3BA /* View */,
+				0007D67C28884A2E00A3E3BA /* Info.plist */,
+			);
+			path = Quantsapp;
+			sourceTree = "<group>";
+		};
+		0007D68428884A6700A3E3BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0007D6CA28886B9F00A3E3BA /* JSONModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0007D68528884A6D00A3E3BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0007D6DB288A7B8200A3E3BA /* CustomCells */,
+				0007D67928884A2E00A3E3BA /* LaunchScreen.storyboard */,
+				0007D67128884A2A00A3E3BA /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0007D68628884A7E00A3E3BA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0007D66F28884A2A00A3E3BA /* ViewController.swift */,
+				0007D6BC288852CC00A3E3BA /* SecondVC.swift */,
+				0007D6BD288852CC00A3E3BA /* SecondVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0007D68728884A8B00A3E3BA /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0007D66B28884A2A00A3E3BA /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0007D68828884AAE00A3E3BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0007D67728884A2E00A3E3BA /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0007D68928884AD300A3E3BA /* Coredata */ = {
+			isa = PBXGroup;
+			children = (
+				0007D67428884A2A00A3E3BA /* Quantsapp.xcdatamodeld */,
+			);
+			path = Coredata;
+			sourceTree = "<group>";
+		};
+		0007D6C52888562800A3E3BA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0007D6C62888563C00A3E3BA /* WebServices.swift */,
+				0007D6D8288A705300A3E3BA /* NetworkLogger.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0007D6DB288A7B8200A3E3BA /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				0007D6DD288ABDCC00A3E3BA /* StocksCVCell.swift */,
+				0007D6DE288ABDCC00A3E3BA /* StocksCVCell.xib */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		692778DFC927BF9E5AD4D21E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21BBD1077E66F9A79185A86F /* libPods-Quantsapp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDF656B37548A139F3033585 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F058D65D3754A8C93D8BF79 /* Pods-Quantsapp.debug.xcconfig */,
+				D2E56DC5079C3177864B018B /* Pods-Quantsapp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0007D66728884A2A00A3E3BA /* Quantsapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0007D67F28884A2E00A3E3BA /* Build configuration list for PBXNativeTarget "Quantsapp" */;
+			buildPhases = (
+				E1A6CEB7D5FC47B44287457F /* [CP] Check Pods Manifest.lock */,
+				0007D66428884A2A00A3E3BA /* Sources */,
+				0007D66528884A2A00A3E3BA /* Frameworks */,
+				0007D66628884A2A00A3E3BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quantsapp;
+			productName = Quantsapp;
+			productReference = 0007D66828884A2A00A3E3BA /* Quantsapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0007D66028884A2A00A3E3BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					0007D66728884A2A00A3E3BA = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 0007D66328884A2A00A3E3BA /* Build configuration list for PBXProject "Quantsapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0007D65F28884A2A00A3E3BA;
+			productRefGroup = 0007D66928884A2A00A3E3BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0007D66728884A2A00A3E3BA /* Quantsapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0007D66628884A2A00A3E3BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0007D67B28884A2E00A3E3BA /* LaunchScreen.storyboard in Resources */,
+				0007D67828884A2E00A3E3BA /* Assets.xcassets in Resources */,
+				0007D6BF288852CC00A3E3BA /* SecondVC.xib in Resources */,
+				0007D6E0288ABDCD00A3E3BA /* StocksCVCell.xib in Resources */,
+				0007D67328884A2A00A3E3BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E1A6CEB7D5FC47B44287457F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quantsapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0007D66428884A2A00A3E3BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0007D6D9288A705300A3E3BA /* NetworkLogger.swift in Sources */,
+				0007D67028884A2A00A3E3BA /* ViewController.swift in Sources */,
+				0007D6C72888563C00A3E3BA /* WebServices.swift in Sources */,
+				0007D66C28884A2A00A3E3BA /* AppDelegate.swift in Sources */,
+				0007D6BE288852CC00A3E3BA /* SecondVC.swift in Sources */,
+				0007D6DF288ABDCD00A3E3BA /* StocksCVCell.swift in Sources */,
+				0007D67628884A2A00A3E3BA /* Quantsapp.xcdatamodeld in Sources */,
+				0007D6CB28886BA000A3E3BA /* JSONModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0007D67128884A2A00A3E3BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0007D67228884A2A00A3E3BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0007D67928884A2E00A3E3BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0007D67A28884A2E00A3E3BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0007D67D28884A2E00A3E3BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0007D67E28884A2E00A3E3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0007D68028884A2E00A3E3BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F058D65D3754A8C93D8BF79 /* Pods-Quantsapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				INFOPLIST_FILE = Quantsapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.quantsapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0007D68128884A2E00A3E3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2E56DC5079C3177864B018B /* Pods-Quantsapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				INFOPLIST_FILE = Quantsapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.quantsapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0007D66328884A2A00A3E3BA /* Build configuration list for PBXProject "Quantsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0007D67D28884A2E00A3E3BA /* Debug */,
+				0007D67E28884A2E00A3E3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0007D67F28884A2E00A3E3BA /* Build configuration list for PBXNativeTarget "Quantsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0007D68028884A2E00A3E3BA /* Debug */,
+				0007D68128884A2E00A3E3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0007D67428884A2A00A3E3BA /* Quantsapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0007D67528884A2A00A3E3BA /* Quantsapp.xcdatamodel */,
+			);
+			currentVersion = 0007D67528884A2A00A3E3BA /* Quantsapp.xcdatamodel */;
+			path = Quantsapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0007D66028884A2A00A3E3BA /* Project object */;
+}
