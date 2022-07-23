@@ -15,9 +15,7 @@
 		0007D67B28884A2E00A3E3BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0007D67928884A2E00A3E3BA /* LaunchScreen.storyboard */; };
 		0007D6BE288852CC00A3E3BA /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007D6BC288852CC00A3E3BA /* SecondVC.swift */; };
 		0007D6BF288852CC00A3E3BA /* SecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0007D6BD288852CC00A3E3BA /* SecondVC.xib */; };
-		0007D6C72888563C00A3E3BA /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007D6C62888563C00A3E3BA /* WebServices.swift */; };
 		0007D6CB28886BA000A3E3BA /* JSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007D6CA28886B9F00A3E3BA /* JSONModel.swift */; };
-		0007D6D9288A705300A3E3BA /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007D6D8288A705300A3E3BA /* NetworkLogger.swift */; };
 		0007D6DF288ABDCD00A3E3BA /* StocksCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007D6DD288ABDCC00A3E3BA /* StocksCVCell.swift */; };
 		0007D6E0288ABDCD00A3E3BA /* StocksCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0007D6DE288ABDCC00A3E3BA /* StocksCVCell.xib */; };
 		56AF1936F9CB44095F4DA86B /* libPods-Quantsapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21BBD1077E66F9A79185A86F /* libPods-Quantsapp.a */; };
@@ -34,9 +32,7 @@
 		0007D67C28884A2E00A3E3BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0007D6BC288852CC00A3E3BA /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 		0007D6BD288852CC00A3E3BA /* SecondVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondVC.xib; sourceTree = "<group>"; };
-		0007D6C62888563C00A3E3BA /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
 		0007D6CA28886B9F00A3E3BA /* JSONModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONModel.swift; sourceTree = "<group>"; };
-		0007D6D8288A705300A3E3BA /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
 		0007D6DD288ABDCC00A3E3BA /* StocksCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksCVCell.swift; sourceTree = "<group>"; };
 		0007D6DE288ABDCC00A3E3BA /* StocksCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StocksCVCell.xib; sourceTree = "<group>"; };
 		21BBD1077E66F9A79185A86F /* libPods-Quantsapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Quantsapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,7 +73,6 @@
 		0007D66A28884A2A00A3E3BA /* Quantsapp */ = {
 			isa = PBXGroup;
 			children = (
-				0007D6C52888562800A3E3BA /* Networking */,
 				0007D68728884A8B00A3E3BA /* AppDelegate */,
 				0007D68628884A7E00A3E3BA /* Controller */,
 				0007D68928884AD300A3E3BA /* Coredata */,
@@ -139,15 +134,6 @@
 				0007D67428884A2A00A3E3BA /* Quantsapp.xcdatamodeld */,
 			);
 			path = Coredata;
-			sourceTree = "<group>";
-		};
-		0007D6C52888562800A3E3BA /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				0007D6C62888563C00A3E3BA /* WebServices.swift */,
-				0007D6D8288A705300A3E3BA /* NetworkLogger.swift */,
-			);
-			path = Networking;
 			sourceTree = "<group>";
 		};
 		0007D6DB288A7B8200A3E3BA /* CustomCells */ = {
@@ -274,9 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0007D6D9288A705300A3E3BA /* NetworkLogger.swift in Sources */,
 				0007D67028884A2A00A3E3BA /* ViewController.swift in Sources */,
-				0007D6C72888563C00A3E3BA /* WebServices.swift in Sources */,
 				0007D66C28884A2A00A3E3BA /* AppDelegate.swift in Sources */,
 				0007D6BE288852CC00A3E3BA /* SecondVC.swift in Sources */,
 				0007D6DF288ABDCD00A3E3BA /* StocksCVCell.swift in Sources */,

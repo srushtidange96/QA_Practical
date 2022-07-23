@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import SwiftyJSON
 
 struct jsonData {
     var all = [[String:[[String:String]]]]()
@@ -28,7 +27,6 @@ class ViewController: UIViewController {
     func initConfig(){
         self.title = "First"
         parseData()
-//        btnnCheck.heightAnchor.constraint(equalToConstant: 40).isActive = true
         btnnCheck.layer.cornerRadius = btnnCheck.frame.height/2
         btnnCheck.addTarget(self, action: #selector(btnCheckClicked), for: .touchUpInside)
     }

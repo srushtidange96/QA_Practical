@@ -5,7 +5,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -24,17 +23,14 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lIJ-66-FbF">
                                 <rect key="frame" x="0.5" y="0.5" width="170.5" height="117.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MINDTREE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBJ-x7-w0w">
-                                        <rect key="frame" x="8" y="5" width="154.5" height="25"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="25" id="FNX-HK-lFj"/>
-                                        </constraints>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBJ-x7-w0w">
+                                        <rect key="frame" x="8" y="5" width="154.5" height="0.0"/>
                                         <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.76%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ec9-aB-TG2">
-                                        <rect key="frame" x="8" y="30" width="154.5" height="25"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ec9-aB-TG2">
+                                        <rect key="frame" x="8" y="5" width="154.5" height="25"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="25" id="vEd-O8-5ID"/>
                                         </constraints>
@@ -42,24 +38,24 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CyP-IK-Wqc">
-                                        <rect key="frame" x="8" y="72.5" width="35" height="35"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stocks" translatesAutoresizingMaskIntoConstraints="NO" id="CyP-IK-Wqc">
+                                        <rect key="frame" x="0.0" y="30" width="30" height="30"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="35" id="996-U8-uYE"/>
-                                            <constraint firstAttribute="height" constant="35" id="MRA-DN-Kp6"/>
+                                            <constraint firstAttribute="width" constant="30" id="996-U8-uYE"/>
+                                            <constraint firstAttribute="height" constant="30" id="MRA-DN-Kp6"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="ec9-aB-TG2" secondAttribute="trailing" constant="8" id="3vb-Cq-Wmp"/>
+                                    <constraint firstItem="CyP-IK-Wqc" firstAttribute="top" secondItem="ec9-aB-TG2" secondAttribute="bottom" id="6Zz-o9-veM"/>
                                     <constraint firstItem="CBJ-x7-w0w" firstAttribute="top" secondItem="lIJ-66-FbF" secondAttribute="top" constant="5" id="EcL-Po-kUK"/>
-                                    <constraint firstAttribute="bottom" secondItem="CyP-IK-Wqc" secondAttribute="bottom" constant="10" id="LIY-4C-8P9"/>
                                     <constraint firstItem="ec9-aB-TG2" firstAttribute="top" secondItem="CBJ-x7-w0w" secondAttribute="bottom" id="NHW-a6-CzU"/>
                                     <constraint firstAttribute="trailing" secondItem="CBJ-x7-w0w" secondAttribute="trailing" constant="8" id="OPm-R9-ngq"/>
                                     <constraint firstItem="CBJ-x7-w0w" firstAttribute="leading" secondItem="lIJ-66-FbF" secondAttribute="leading" constant="8" id="SZE-3n-AFF"/>
                                     <constraint firstItem="ec9-aB-TG2" firstAttribute="leading" secondItem="lIJ-66-FbF" secondAttribute="leading" constant="8" id="k3Z-kA-XGO"/>
-                                    <constraint firstItem="CyP-IK-Wqc" firstAttribute="leading" secondItem="lIJ-66-FbF" secondAttribute="leading" constant="8" id="qhi-Jr-2xx"/>
+                                    <constraint firstItem="CyP-IK-Wqc" firstAttribute="leading" secondItem="lIJ-66-FbF" secondAttribute="leading" id="qhi-Jr-2xx"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -91,8 +87,6 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
+        <image name="stocks" width="13.5" height="13.5"/>
     </resources>
 </document>
